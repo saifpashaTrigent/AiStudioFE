@@ -80,7 +80,7 @@ for msg in st.session_state.messages:
 # 3) Get user input from the chat box
 user_input = st.text_area(label="Enter your email content...", placeholder="Enter your email content...")
 
-if user_input:
+if user_input and st.button("submit",type="primary"):
     # Show the user's message
     with st.chat_message("user"):
         st.write(user_input)
