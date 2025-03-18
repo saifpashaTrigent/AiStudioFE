@@ -41,7 +41,7 @@ st.markdown(
 )
 
 # Main Title and Introduction
-st.title("Trigent AI Studio ")
+st.title("Trigent AI Studio Email-Classifier")
 st.markdown(
     """
 Welcome to **Trigent AI Studio** – your next-generation platform for creating, deploying, and managing AI-driven workflows.
