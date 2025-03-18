@@ -80,7 +80,7 @@ for msg in st.session_state.messages:
         st.write(msg["content"])
 
 # 3) Get user input from the chat box
-user_input = st.text_input("Enter your email...")
+user_input = st.text_input(placeholder="Enter your email content...")
 
 if user_input:
     # Show the user's message
